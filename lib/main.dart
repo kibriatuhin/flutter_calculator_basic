@@ -31,7 +31,13 @@ class _CalculatorState extends State<Calculator> {
       firstNum = 0;
       secondNum = 0;
       res = '';
-    } else if (btnVal == 'AC') {
+    } /*else if (btnVal == '+/-') {
+      if (textToDisplay[0] == '+') {
+        res = '+' + textToDisplay;
+      } else {
+        res = '-' + textToDisplay.substring(1);
+      }
+    }*/ else if (btnVal == 'AC') {
       textToDisplay = '';
       firstNum = 0;
       secondNum = 0;
